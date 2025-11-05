@@ -113,9 +113,15 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
   }
 
-  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+
+  :where(p, span, li, a, button, label, td, th) {
     overflow-wrap: anywhere;
     word-break: break-word;
   }
@@ -124,5 +130,27 @@
   code {
     overflow-x: auto;
     white-space: pre;
+  }
+}
+
+@layer components {
+  .gradient-primary {
+    @apply bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50;
+  }
+
+  .gradient-accent {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600;
+  }
+
+  .section-spacing {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:scale-105;
+  }
+
+  .smooth-scroll {
+    scroll-behavior: smooth;
   }
 }
