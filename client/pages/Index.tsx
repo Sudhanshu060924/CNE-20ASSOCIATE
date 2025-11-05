@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowRight, BookOpen, Zap, Code, Cog, Briefcase } from "lucide-react";
+import { ArrowRight, BookOpen, Zap, Code, Cog, Briefcase, Mail, Phone, MapPin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
