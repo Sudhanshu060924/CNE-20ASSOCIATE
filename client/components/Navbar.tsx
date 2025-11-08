@@ -29,10 +29,10 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg">
-              CNE
+             CNE
             </div>
             <span className="ml-3 text-xl font-bold text-primary hidden md:inline">
-              CNE Associate
+              CNE Associates
             </span>
           </div>
 
