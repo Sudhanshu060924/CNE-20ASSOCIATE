@@ -455,7 +455,14 @@ export default function Index() {
                     ))}
                   </div>
 
-                  <Button className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-700 text-white border-0 text-lg px-8 py-2 h-16">
+                  <Button
+                    onClick={() => {
+                      document.getElementById("contact")?.scrollIntoView({
+                        behavior: "smooth",
+                      });
+                    }}
+                    className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-700 text-white border-0 text-lg px-8 py-2 h-16"
+                  >
                     Talk to Our Experts
                     <ArrowRight className="w-5 h-5 ml-2" />
                   </Button>
