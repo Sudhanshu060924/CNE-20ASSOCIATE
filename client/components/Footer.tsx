@@ -30,7 +30,7 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
-            <ul className=" flex  gap-5">
+            <ul className=" flex  gap:2 md:gap-5">
               {[
                 { label: "Home", id: "hero" },
                 { label: "Services", id: "services" },

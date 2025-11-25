@@ -332,7 +332,7 @@ export default function Index() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               {/* Workshop Info */}
               <div>
-                <div className="space-y-6">
+                <div className="space-y-6 ml-2 md:ml-0">
                   <div>
                     <h3 className="text-2xl font-bold text-primary mb-3">
                       Intensive 2-Day Workshop
