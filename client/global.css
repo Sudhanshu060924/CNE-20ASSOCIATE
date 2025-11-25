@@ -13,7 +13,7 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
+    --background: 220, 14%, 96%;
     --foreground: 240 10% 20%;
 
     --card: 0 0% 100%;
@@ -22,14 +22,14 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 20%;
 
-    --primary: 240 6% 15%;
+    --primary: 0 0 0;
     --primary-foreground: 210 40% 98%;
     --primary-50: 220 14% 96%;
     --primary-100: 220 13% 91%;
     --primary-200: 220 12% 86%;
     --primary-300: 220 11% 71%;
 
-    --secondary: 210 100% 50%;
+    --secondary: 227, 99%, 25%;
     --secondary-foreground: 0 0% 100%;
     --secondary-50: 210 100% 90%;
     --secondary-100: 210 100% 70%;
@@ -120,6 +120,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
   }
+  button{
+    font-family: "Poppins", sans-serif;
+  }
 
   :where(p, span, li, a, button, label, td, th) {
     overflow-wrap: anywhere;
@@ -153,4 +156,8 @@
   .smooth-scroll {
     scroll-behavior: smooth;
   }
+  ::-webkit-scrollbar{
+    display: none;
+  }
 }
+
